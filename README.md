@@ -1,3 +1,5 @@
+![Pin view sample](https://www.dropbox.com/s/kmyida8ryiy4e9w/PinIndicatorView.png?raw=1)
+
 # PinIndicatorView
 A simple UI component that mimics the lock screen pin indicator
 
@@ -33,6 +35,12 @@ If your validation fails trigger the shake animation and clear the indicator
 ```
 pinIndicator.shake()
 pinIndicator.clear()
+```
+
+## Instalation
+The library is available on cocoapods
+```
+pod 'PinIndicatorView', '~> 1.0'
 ```
 
 ## Customisation
